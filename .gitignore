@@ -1,0 +1,56 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+/volumes
+.scannerwork
+# dependencies
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+Thumbs.db
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env
+.env.*
+!.env.template
+!.env.production
+
+# vercel
+.vercel
+
+# other
+.vscode
+.idea
+.next
+node_modules
+dist
+tools/**/*.js
+tools/**/*.js.map
+!jest.config.js
+!.eslintrc.json
+apps/**/_proto
+/.vs/
+/apps/api-gateway/graphql/schema.gql
+/.history/
+/graphql/schema.gql
+/graphql/.graphqlconfig
+/playwright-report/
+/test-results
+/.idea/
